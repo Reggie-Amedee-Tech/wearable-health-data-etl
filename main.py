@@ -105,7 +105,7 @@ def run(file: str):
     print(f"Average Heart-Rate {average_hr}")
     print(f"Median Heart-Rate {median_hr}")
     print(f"Range Heart-Rate {range_hr}")
-    print(f"Average Heart-Rate{rolling_avg_hr} + {int = 10}")
+    #print(f"Average Heart-Rate{rolling_avg_hr} + {int = 10}")
 
 if __name__ == "__main__":
     run("data/phase0.txt")

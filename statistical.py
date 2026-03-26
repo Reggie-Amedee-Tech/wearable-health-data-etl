@@ -7,7 +7,7 @@ def average(data: list) -> float:
     avg= stats.mean(data)
     return round(avg)
 
-    
+
     # clean_data=data
     # total_hr = 0
     # for i in clean_data:
