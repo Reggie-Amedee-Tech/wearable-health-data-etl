@@ -101,7 +101,7 @@ def run(file: str):
     #rolling_avg_hr = rolling_avg(clean_hr_data)
 
     #print out your data quality measure to the console
-    #print (f"Cleaned Heart Rate Data: {new_data}")
+    print (f"Cleaned Heart Rate Data: {new_data}")
 
     # print out your descriptive statistics to the console
 
@@ -111,8 +111,12 @@ def run(file: str):
     #print(f"Average Heart-Rate{rolling_avg_hr} + {int = 10}")
     print(f"Variance Heart-Rate {variance_hr}" )
     print(f"Standard Deviation Heart-Rate {stddev_hr}")
+
+    return new_data
 if __name__ == "__main__":
     run("data/phase0.txt")
     run("data/phase1.txt")
     run("data/phase2.txt")
     run("data/phase3.txt")
+
+
